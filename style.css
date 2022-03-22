@@ -1,0 +1,69 @@
+.fixed_header{
+  width: 80%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 100px;
+}
+
+.fixed_header th, .fixed_header td{
+  padding: 5px;
+  text-align: center;
+}
+
+
+body{
+  font-size: medium;
+  font-family: roboto;
+
+}
+
+.add{
+  width: 100%;
+  height:20px;
+}
+
+
+.add input{
+  width: 45%;
+  background: #44475a;
+}
+
+.add #i1{
+  width = 45%;
+}
+
+.add #i2 {
+  width = 45%;
+}
+
+.add button{
+  width = 10%;
+  color: white
+}
+
+
+.prime{
+  width: 100%;
+  height: 20px;
+}
+
+
+.prime input{
+  width: 77%;
+  background: #44475a;
+}
+
+.prime button{
+  width: 19%;
+  color: white;
+}
+
+p{
+  height: 20px;
+}
